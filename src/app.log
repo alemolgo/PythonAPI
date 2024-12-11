@@ -1,0 +1,16 @@
+2024-11-21 01:00:23 | ERROR | [CourseDao.get_all_courses]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'Angulra' for key 'Course.Course_UNIQUE'")
+[SQL: INSERT INTO `Course` (id, name, credits, `beginDate`) VALUES (%(id)s, %(name)s, %(credits)s, %(beginDate)s)]
+[parameters: {'id': '7cf4eda3-3be9-4946-89c9-70f91f1a4578', 'name': 'Angulra', 'credits': 8, 'beginDate': '2008-08-08'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-21 01:01:24 | ERROR | [CourseDao.get_all_courses]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'Angulra' for key 'Course.Course_UNIQUE'")
+[SQL: INSERT INTO `Course` (id, name, credits, `beginDate`) VALUES (%(id)s, %(name)s, %(credits)s, %(beginDate)s)]
+[parameters: {'id': 'f4cd27af-9d5d-4512-a010-8993688c37f4', 'name': 'Angulra', 'credits': 8, 'beginDate': '2008-08-08'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-21 01:02:46 | ERROR | [CourseDao.get_all_courses]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'Angulra' for key 'Course.Course_UNIQUE'")
+[SQL: INSERT INTO `Course` (id, name, credits, `beginDate`) VALUES (%(id)s, %(name)s, %(credits)s, %(beginDate)s)]
+[parameters: {'id': 'e8ace751-a813-4c02-9775-630fef9c2c38', 'name': 'Angulra', 'credits': 8, 'beginDate': '2008-08-08'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-21 01:02:58 | ERROR | [CourseDao.get_all_courses]: (pymysql.err.IntegrityError) (1062, "Duplicate entry 'Angulra' for key 'Course.Course_UNIQUE'")
+[SQL: INSERT INTO `Course` (id, name, credits, `beginDate`) VALUES (%(id)s, %(name)s, %(credits)s, %(beginDate)s)]
+[parameters: {'id': '62ac14e8-1793-4f58-bfc7-a0f5d5f974b3', 'name': 'Angulra', 'credits': 8, 'beginDate': '2008-08-08'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
