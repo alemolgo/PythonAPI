@@ -1,0 +1,20 @@
+git init
+git status
+git add .
+git config --global user.email "email"
+git config --global user.name "NickName"
+git commit -m "Commit message"
+git branch -M main
+git remote add origin <Repository Url>.git
+git pull origin main --allow-unrelated-histories
+git push -u origin main (--force)
+
+
+ssh-keygen -t rsa -C tu_email_registrado_en_github@example.com -b 2048
+ssh-keygen -t ed25519 -C "tu_email_registrado_en_github@example.com"
+
+ssh-add ~/.ssh/PythonApiKey
+ssh-add "C:\Users\<user>\.ssh\<keyName>"
+----------------------------
+git branch
+git checkout main
