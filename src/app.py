@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 def page_not_found(error):
     """Page No fouth method"""
-    return "<h1>Not found page...Soquete!!</h1>", 404
+    return "<h1>Page not found...Soquete!!</h1>", 404
 
 if __name__ == '__main__':
     app.config.from_object(configure['development'])
